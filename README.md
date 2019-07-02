@@ -1,7 +1,7 @@
 
 # IMDb_Project
 # Web Mining Final Project
-## 250 Top rated movies acccording to IMDb¶
+## 250 Top rated movies acccording to IMDb
 ### Question 
 ##### How to analyze and determine the top rated movies increasing from 20th century according to IMDb?
 ### Introduction
