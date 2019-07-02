@@ -1,26 +1,24 @@
 
-# YouTube_Project
+# IMDb_Project
 # Web Mining Final Project
-## Top 5 YouTube Channels by subscribers
+## 250 Top rated movies acccording to IMDb¶
 ### Question 
-##### How to find the top 5 YouTube channels, and  analyze the subscribers and  views of those channels?
+##### How to analyze and determine the top rated movies increasing from 20th century according to IMDb?
 ### Introduction
-##### To find the channels list with more number of subscribers I'm using "socialblade website".I web scraped the top 5 Youtube channels by subscribers and collected data.I Cleaned the data collected and Visualized the results in BarGraphs.
-### Libraries Required
+##### After scraping all the data from the IMDb website, I found that the increase in top rated movies has changed to a greater extent. And it is observed that from 1960, there is an enormous change in increase of top rated movies. And by using matplotlib all the results are visualized in the line graph, showing how the top rated movies are increasing from past century.
+### Modules i used in my Project:
 ##### 1.BeautifulSoup
-##### 2.Pandas
-##### 3.Requests
+##### 2.Requests
+##### 3.Pandas
 ##### 4.Matplotlib
-##### 5.Seaborn
-### Procedure
-##### Web Scraping a YouTube Website https://socialblade.com/youtube/ by sending html requests.
+##### 5.Pickle
+##### 6.collections
+##### 7.Numpy
+##### 8.Pylab
+### Procedure:
+##### Web Scraping a IMDb Website https://www.imdb.com by sending lxml requests.
 ##### Pickling the data.
-##### Importing data in to pandas
-##### Cleaning the data.
-##### Visualizing the results using Seaborn and Matplotlib.
-### Conculsion
-##### From both the graphs we can clearly state that "T -Series" is a channel with highest number of subscribers and views.
-##### We can also see that the 2nd ranked channel "PewDiePie" has more subscribers than the 4th ranked channel " Cocomelon - Nursery Rhymes" but not the views.
-##### From the above two graphs, I can conclude that even if a channel is top rated based on the number of subscribers, they may have less number of views.
-
- 
+##### Importing all the analyzed data into pandas
+##### Visualizing the results using Matplotlib.
+### Conclusion
+##### From my linegraph, we can find how the change has occured in increasing the top rated movies. It is observed that from 1960, there is an enormous change in increase of top rated movies according to the IMDb.
