@@ -16,7 +16,7 @@
 ##### 7.Numpy
 ##### 8.Pylab
 ### Procedure:
-##### 1.Web Scraping a IMDb Website https://www.imdb.com by sending lxml requests.
+##### 1.Web Scraping an IMDb Website https://www.imdb.com by sending lxml requests.
 ##### 2.Pickling the data.
 ##### 3.Importing all the analyzed data into pandas
 ##### 4.Visualizing the results using Matplotlib.
